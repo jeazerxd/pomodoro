@@ -1,0 +1,132 @@
+ body{
+        background-color: #333;
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        line-height: 1.5;
+        color: #333;
+        margin: 0;
+        padding: 0;
+        font-weight: 300;
+ }
+
+
+ .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 20px;
+    box-sizing: border-box;
+   
+ }
+ 
+
+ .box-container .box {
+    width: 500px;
+    height: auto;
+    margin: 20px;
+    background: radial-gradient(circle at 100.9% 50.9%, rgb(255, 124, 0) 0%, rgb(255, 124, 0) 15.9%, rgb(255, 163, 77) 15.9%, rgb(255, 163, 77) 24.4%, rgb(19, 30, 37) 24.5%, rgb(19, 30, 37) 66%);
+    border-radius: 2rem;
+    overflow: hidden;
+    position: relative;
+    transition: 0.5s;
+    overflow: hidden;
+ }
+
+ .box-container .box .box-top h2 {
+    font-size: 1.2rem;
+    color: #aeadad;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 2px;
+    position: relative;
+    z-index: 1;
+    font-weight: 100;
+ }
+
+ .box-container .box .box-top h1 {
+    font-size: 3rem;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    text-transform: uppercase;
+    font-weight: 200;
+    letter-spacing: 2px;
+    position: relative;
+    z-index: 1;
+    
+ }
+
+ .box-container .box .box-bottom  {
+    display: flex;
+    justify-content: center;
+    gap: 0.7rem;
+}
+
+.box-container .box .box-bottom2  {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.1rem;
+    gap: 0.3rem;
+   
+}
+
+button {
+    
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 1rem;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 2rem;
+    transition: ease-in-out 0.3s;
+}
+
+
+
+.start {
+    background: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));
+
+}
+.stop {
+    background: linear-gradient(to right, rgb(242, 112, 156), rgb(255, 148, 114));
+}
+
+.reset {
+    background: radial-gradient(circle at 10% 20%, rgb(251, 221, 19) 0.1%, rgb(255, 153, 1) 90%);}
+
+.short-break {
+    background: linear-gradient(to top, #09203f 0%, #537895 100%);
+
+}
+
+.long-break {
+    background: linear-gradient(135deg, rgb(82, 229, 231) 10%, rgb(19, 12, 183) 100%);
+}
+
+
+button:hover {
+    transform: scale(1.069);
+}
+
+button:active {
+    background-color: #957DAD;
+    color: white;
+}
+
+.box-container .box .playlist {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: -4rem;
+    gap: 1rem;
+   
+}
